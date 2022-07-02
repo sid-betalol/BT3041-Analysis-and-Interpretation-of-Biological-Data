@@ -18,3 +18,12 @@ The problem statement was to classify the samples from the [CIFAR-10 Dataset](ht
 - Accuracy improved by around 34% as I could train with more parameters (around 1 million).
 - For more details, check the [report](https://github.com/sid-betalol/BT3041-Analysis-and-Interpretation-of-Biological-Data/blob/main/assignment2_cnn/report.pdf).
 - Check code on Colab [here](https://colab.research.google.com/drive/1GL4lbsyA9cKkJIgfTrhOWL3Gg__5tv-M?usp=sharing).
+
+The fact that the CIFAR-10 dataset has a significant bottleneck in the form of images with a
+maximum resolution of 32x32 is a positive component of this assignment. This means that, while
+more powerful networks with higher parameters and fancier connections will perform better, the
+benefit of increasing complexity will be minor because there is only so much detail in the image
+to collect.
+
+
+#### To add: An approach based on Convolutional Spiking Neural Networks, which gives better accuracy (around 69%).
